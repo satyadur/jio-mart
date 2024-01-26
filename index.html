@@ -1,0 +1,378 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="./bootstrap-5.3.2-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css">
+  </head>
+  <body>
+    <!-- nav starts -->
+    <nav class="navbar" style="background-color: #e3f2fd;">
+        <button class="btn"><img src="https://www.jiomart.com/assets/ds2web/jds-icons/hamburger-icon.svg" alt=""></button>
+       <span id="jioimg"><img src="https://www.jiomart.com/assets/ds2web/images/jiomart-logo.svg?v=24" alt=""></span>
+       <div><img src="https://www.jiomart.com/assets/ds2web/jds-icons/location-icon.svg" alt=""> Deliver to Mubai 400020</div>
+       <span id="inp2"><img src="https://www.jiomart.com/assets/ds2web/jds-icons/search-icon.svg" alt=""><input type="search" name="" id="" placeholder="Search JioMart"><img id="menusymbol" src="https://www.jiomart.com/assets/ds2web/jds-icons/list-icon.svg" alt=""></span>
+       <span id="cartsymbol"><img src="https://www.jiomart.com/assets/ds2web/jds-icons/cart-icon.svg" alt=""></span>
+       <button class="btn-primary"><img src="https://www.jiomart.com/assets/ds2web/jds-icons/user-icon.svg" alt=""> Sign In</button>
+      </nav>
+<!-- nav ends -->
+<!-- small nav stars -->
+  <div id="hovernav2">
+       <ul>
+          <li id="groceries">Groceries
+            <div id="grohover">
+              <ul>
+                <li>Fruits & Vegetables</li>
+                <li>Dairy & Bakery</li>
+                <li>Staples</li>
+                <li>Snacks & Branded Foods</li>
+                <li>Beverages</li>
+                <li>Personal Care</li>
+                <li>Home Care</li>
+                <li>Apparel</li>
+                <li>Home & Kitchen</li>
+                <li>Mom & Baby Care</li>
+                <li>Books</li>
+              </ul>
+            </div>
+          </li>
+          <li>Premium Fruits</li>
+          <li>Home & Kitchen</li>
+          <li id="fashion">Fashion
+            <div id="fasdiv">
+              <ul>
+                <li>Men</li>
+                <li>Women</li>
+                <li>Boys</li>
+                <li>Girls</li>
+                <li>Junior Boys</li>
+                <li>Infants</li>
+                <li>Home & Kitchen</li>
+              </ul>
+            </div>
+          </li>
+          <li>Electronics</li>
+          <li>Beauty</li>
+          <li>Home Improvement</li>
+          <li id="sports">Sports, Toys & Luggage
+            <div id="sportdiv">
+              <ul>
+                <li>Toys & Games</li>
+                <li>Bags & Travel Luggage</li>
+                <li>Sporting Goods & Fittness Equipment</li>
+              </ul>
+            </div>
+          </li>
+        </ul>
+       </div>
+<!-- small nav ends -->
+<!-- carosel starts -->
+<!-- <section id="curosel"> -->
+<div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active" data-bs-interval="10000">
+      <img src="https://www.jiomart.com/images/cms/aw_rbslider/slides/1706174106_Oneplus_Redmi_Desktop.jpg?im=Resize=(1680,320)" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item" data-bs-interval="2000">
+      <img src="https://www.jiomart.com/images/cms/aw_rbslider/slides/1706119133_Handmade_Sarees_.jpg?im=Resize=(1680,320)" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="https://www.jiomart.com/images/cms/aw_rbslider/slides/1706119181_Bathing_Essentials.jpg?im=Resize=(1680,320)" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="https://www.jiomart.com/images/cms/aw_rbslider/slides/1706106445_Aaj_Ki_Deals_Desktop.jpg?im=Resize=(1680,320)" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="https://www.jiomart.com/images/cms/aw_rbslider/slides/1706118751_Har_Thaali_Mein_Basmati_D.jpg?im=Resize=(1680,320)" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="https://www.jiomart.com/images/cms/aw_rbslider/slides/1706003607_Laundry_Essentials__desktop.jpg?im=Resize=(1680,320)" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="https://www.jiomart.com/images/cms/aw_rbslider/slides/1706118865_Single_Use_Essentials.jpg?im=Resize=(1680,320)" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="https://www.jiomart.com/images/cms/aw_rbslider/slides/1706002255_Best_Sellers_Of_The_Season.jpg?im=Resize=(1680,320)" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="https://www.jiomart.com/images/cms/aw_rbslider/slides/1706002854_Never_Seen_Before_Prices.jpg?im=Resize=(1680,320)" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="https://www.jiomart.com/images/cms/aw_rbslider/slides/1706119030_Best_Deals_On_D.jpg?im=Resize=(1680,320)" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="https://www.jiomart.com/images/cms/aw_rbslider/slides/1706002999_Blockbuster_Deals.jpg?im=Resize=(1680,320)" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+</section>
+<!-- curosel ends -->
+<!-- items stars -->
+<section id="items">
+    <h1>
+      Top Deals On Daily Essentials
+    </h1>
+    <div class="owl-carousel owl-theme">
+      <div id="imagediv" class="item"><img id="image" src="https://www.jiomart.com/images/cms/aw_rbslider/slides/1705988405_soap.jpg?im=Resize=(223,280)" alt=""></div>
+      <div id="imagediv" class="item"><img id="image" src="https://www.jiomart.com/images/cms/aw_rbslider/slides/1705987950_babycare.jpg?im=Resize=(223,280)" alt=""></div>
+      <div id="imagediv" class="item"><img id="image" src="https://www.jiomart.com/images/cms/aw_rbslider/slides/1705988040_chocolates.jpg?im=Resize=(223,280)" alt=""></div>
+      <div id="imagediv" class="item"><img id="image" src="https://www.jiomart.com/images/cms/aw_rbslider/slides/1705988405_soap.jpg?im=Resize=(223,280)" alt=""></div>
+      <div id="imagediv" class="item"><img id="image" src="https://www.jiomart.com/images/cms/aw_rbslider/slides/1705987860_colddrinks.jpg?im=Resize=(223,280)" alt=""></div>
+      <div id="imagediv" class="item"><img id="image" src="https://www.jiomart.com/images/cms/aw_rbslider/slides/1705987860_colddrinks.jpg?im=Resize=(223,280)" alt=""></div>
+      <div id="imagediv" class="item"><img id="image" src="https://www.jiomart.com/images/cms/aw_rbslider/slides/1705987996_health_wellness.jpg?im=Resize=(223,280)" alt=""></div>
+      <div id="imagediv" class="item"><img id="image" src="https://www.jiomart.com/images/cms/aw_rbslider/slides/1705988583_snacks.jpg?im=Resize=(223,280)" alt=""></div>
+      <div id="imagediv" class="item"><img id="image" src="https://www.jiomart.com/images/cms/aw_rbslider/slides/1705988759_dishwasher.jpg?im=Resize=(223,280)" alt=""></div>
+      <div id="imagediv" class="item"><img id="image" src="https://www.jiomart.com/images/cms/aw_rbslider/slides/1705987911_skincare.jpg?im=Resize=(223,280)" alt=""></div>
+      <div id="imagediv" class="item"><img id="image" src="https://www.jiomart.com/images/cms/aw_rbslider/slides/1705987911_skincare.jpg?im=Resize=(223,280)" alt=""></div>
+      <div id="imagediv" class="item"><img id="image" src="https://www.jiomart.com/images/cms/aw_rbslider/slides/1705987860_colddrinks.jpg?im=Resize=(223,280)" alt=""></div>
+    </div>
+</section>
+
+<section id="items" class="tems2">
+  <h1 id="no">
+    Top Deals On Grocery Staples
+  </h1>
+  <div class="owl-carousel owl-theme">
+    <div id="imagediv" class="item"><img id="image" src="https://www.jiomart.com/images/cms/aw_rbslider/slides/1706012290_oil.jpg?im=Resize=(223,280)" alt=""></div>
+    <div id="imagediv" class="item"><img id="image" src="https://www.jiomart.com/images/cms/aw_rbslider/slides/1706012299_dalsandpulses.jpg?im=Resize=(223,280)" alt=""></div>
+    <div id="imagediv" class="item"><img id="image" src="https://www.jiomart.com/images/cms/aw_rbslider/slides/1706012321_ghee.jpg?im=Resize=(223,280)" alt=""></div>
+    <div id="imagediv" class="item"><img id="image" src="https://www.jiomart.com/images/cms/aw_rbslider/slides/1706012417_sugarandjaggery.jpg?im=Resize=(223,280)" alt=""></div>
+    <div id="imagediv" class="item"><img id="image" src="https://www.jiomart.com/images/cms/aw_rbslider/slides/1706012409_riceproducts.jpg?im=Resize=(223,280)" alt=""></div>
+    <div id="imagediv" class="item"><img id="image" src="https://www.jiomart.com/images/cms/aw_rbslider/slides/1706012567_basmatirice.jpg?im=Resize=(223,280)" alt=""></div>
+    <div id="imagediv" class="item"><img id="image" src="https://www.jiomart.com/images/cms/aw_rbslider/slides/1706012580_dryfruitsnadnuts.jpg?im=Resize=(223,280)" alt=""></div>
+    <div id="imagediv" class="item"><img id="image" src="https://www.jiomart.com/images/cms/aw_rbslider/slides/1706012592_organicrange.jpg?im=Resize=(223,280)" alt=""></div>
+    <div id="imagediv" class="item"><img id="image" src="https://www.jiomart.com/images/cms/aw_rbslider/slides/1706012417_sugarandjaggery.jpg?im=Resize=(223,280)" alt=""></div>
+    <div id="imagediv" class="item"><img id="image" src="https://www.jiomart.com/images/cms/aw_rbslider/slides/1706012299_dalsandpulses.jpg?im=Resize=(223,280)" alt=""></div>
+    <div id="imagediv" class="item"><img id="image" src="https://www.jiomart.com/images/cms/aw_rbslider/slides/1706012311_cashews.jpg?im=Resize=(223,280)" alt=""></div>
+    <div id="imagediv" class="item"><img id="image" src="https://www.jiomart.com/images/cms/aw_rbslider/slides/1706012311_cashews.jpg?im=Resize=(223,280)" alt=""></div>
+  </div>
+</section>
+
+<!-- items ends -->
+<section class="splide" aria-labelledby="carousel-heading">
+  <div class="splide__track">
+		<ul class="splide__list">
+			<li class="splide__slide"><img src="https://www.jiomart.com/images/cms/aw_rbslider/slides/1705780243_MobiKwik_1240x209.jpg?im=Resize=(1241,195)" alt=""></li>
+			<li class="splide__slide"><img src="https://www.jiomart.com/images/cms/aw_rbslider/slides/1705933636_MobiKwik_1240x209.jpg?im=Resize=(1241,195)" alt=""></li>
+			<li class="splide__slide"><img src="https://www.jiomart.com/images/cms/aw_rbslider/slides/1706119472_TWID_New_1240x209.jpg?im=Resize=(1241,195)" alt=""></li>
+      <li class="splide__slide"><img src="https://www.jiomart.com/images/cms/aw_rbslider/slides/1703842222_Cred_pay_1240x209-100.jpg?im=Resize=(1241,195)" alt=""></li>
+			<li class="splide__slide"><img src="https://www.jiomart.com/images/cms/aw_rbslider/slides/1705932304_Simple_1st-Offer_1240x209.jpg?im=Resize=(1241,195)" alt=""></li>
+			<li class="splide__slide"><img src="https://www.jiomart.com/images/cms/aw_rbslider/slides/1696077709_1683628499_JioPlus_1240x209web.jpg?im=Resize=(1241,195)" alt=""></li>
+      <li class="splide__slide"><img src="https://www.jiomart.com/images/cms/aw_rbslider/slides/1706104575_1240x209.jpg?im=Resize=(1241,195)" alt=""></li>
+			<li class="splide__slide"><img src="https://www.jiomart.com/images/cms/aw_rbslider/slides/1706104575_1240x209.jpg?im=Resize=(1241,195)" alt=""></li>
+			<li class="splide__slide"><img src="https://www.jiomart.com/images/cms/aw_rbslider/slides/1705932402_SBI_1240x209.jpg?im=Resize=(1241,195)" alt=""></li>
+		</ul>
+  </div>
+</section>
+
+<section id="items" class="tems3">
+  <!-- <h1>
+    Top Deals On Daily Essentials
+  </h1> -->
+  <div class="owl-carousel owl-theme">
+    <div id="imagediv" class="item"><img id="image" src="https://www.jiomart.com/images/cms/aw_rbslider/slides/1706011207_Daily_Essentials_web.jpg?im=Resize=(223,280)" alt=""></div>
+    <div id="imagediv" class="item"><img id="image" src="https://www.jiomart.com/images/cms/aw_rbslider/slides/1705779280_dals_pulses.jpg?im=Resize=(223,280)" alt=""></div>
+    <div id="imagediv" class="item"><img id="image" src="https://www.jiomart.com/images/cms/aw_rbslider/slides/1706162196_Kidstshirts.jpg?im=Resize=(223,280)" alt=""></div>
+    <div id="imagediv" class="item"><img id="image" src="https://www.jiomart.com/images/cms/aw_rbslider/slides/1706210825_Kitchen_Storage_Needs_D.jpg?im=Resize=(223,280)" alt=""></div>
+    <div id="imagediv" class="item"><img id="image" src="https://www.jiomart.com/images/cms/aw_rbslider/slides/1706011364_Ram_Idols_web.jpg?im=Resize=(223,280)" alt=""></div>
+   
+  </div>
+</section>
+
+<section id="bootstrap-carosel">
+<div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img id="iam" src="https://www.jiomart.com/images/cms/aw_rbslider/slides/1706210328_Web_Mumbai_JioMartHome_01.jpg?im=Resize=(1680,320)" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img id="iam" src="https://www.jiomart.com/images/cms/aw_rbslider/slides/1706186497_Mumbai.jpg?im=Resize=(1680,320)" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+</section>
+
+<section id="items" class="tems4">
+  <h1 id="no">
+    Blockbuster Deals
+  </h1>
+  <div class="owl-carousel owl-theme">
+    <div id="imagediv" class="item"><img id="image" src="https://www.jiomart.com/images/cms/aw_rbslider/slides/1706008007_1.jpg?im=Resize=(223,280)" alt=""></div>
+    <div id="imagediv" class="item"><img id="image" src="https://www.jiomart.com/images/cms/aw_rbslider/slides/1706008056_2.jpg?im=Resize=(223,280)" alt=""></div>
+    <div id="imagediv" class="item"><img id="image" src="https://www.jiomart.com/images/cms/aw_rbslider/slides/1705994030_4.jpg?im=Resize=(223,280)" alt=""></div>
+    <div id="imagediv" class="item"><img id="image" src="https://www.jiomart.com/images/cms/aw_rbslider/slides/1705994068_6.jpg?im=Resize=(223,280)" alt=""></div>
+    <div id="imagediv" class="item"><img id="image" src="https://www.jiomart.com/images/cms/aw_rbslider/slides/1705994088_7.jpg?im=Resize=(223,280)" alt=""></div>
+    <div id="imagediv" class="item"><img id="image" src="https://www.jiomart.com/images/cms/aw_rbslider/slides/1706006848_9.jpg?im=Resize=(223,280)" alt=""></div>
+    <div id="imagediv" class="item"><img id="image" src="https://www.jiomart.com/images/cms/aw_rbslider/slides/1705994201_10.jpg?im=Resize=(223,280)" alt=""></div>
+    <div id="imagediv" class="item"><img id="image" src="https://www.jiomart.com/images/cms/aw_rbslider/slides/1705994223_11.jpg?im=Resize=(223,280)" alt=""></div>
+    <div id="imagediv" class="item"><img id="image" src="https://www.jiomart.com/images/cms/aw_rbslider/slides/1705994269_13.jpg?im=Resize=(223,280)" alt=""></div>
+    <div id="imagediv" class="item"><img id="image" src="https://www.jiomart.com/images/cms/aw_rbslider/slides/1705994287_14.jpg?im=Resize=(223,280)" alt=""></div>
+    <div id="imagediv" class="item"><img id="image" src="https://www.jiomart.com/images/cms/aw_rbslider/slides/1705994314_15.jpg?im=Resize=(223,280)" alt=""></div>
+    <div id="imagediv" class="item"><img id="image" src="https://www.jiomart.com/images/cms/aw_rbslider/slides/1706087009_17.jpg?im=Resize=(223,280)" alt=""></div>
+  </div>
+</section>
+
+
+<section id="last">
+  <div><img src="https://www.jiomart.com/images/cms/aw_rbslider/slides/1706086317_Continue_Shopping_Desktop.jpg?im=Resize=(1240,150)" alt=""></div>
+</section >
+<section id="last2">
+  <div><img src="https://www.jiomart.com/images/cms/aw_rbslider/slides/1675955392_Jio_Cares_1240x194.jpg?im=Resize=(1240,150)" alt=""></div>
+</section>
+
+<!-- footer stars -->
+<footer>
+  <div id="list1">
+    <h3>All Categories</h3>
+    <ul>
+      <li> Grocery </li>
+      <li> Electronics </li>
+      <li> Fashion </li>
+      <li> Beauty </li>
+      <li> Home & Kitchen </li>
+      <li> Premium Fruits </li>
+      <li> Books </li>
+      <li> Furniture </li>
+    </ul>
+  </div>
+  <div id="list2">
+    <h3>Popular Categories</h3>
+    <ul>
+      <li> Staples </li>
+      <li> Beverages </li>
+      <li> Personal Care </li>
+      <li> Home Care </li>
+      <li> Fruits & Vegetables </li>
+      <li> Baby Care </li>
+      <li> Snacks & Branded Foods </li>
+      <li> Dairy & Bakery </li>
+    </ul>
+  </div>
+  <div id="list3">
+    <h3>Customer Account</h3>
+    <ul>
+      <li> My Account </li>
+      <li> My Orders </li>
+      <li> Wishlist </li>
+      <li> Payment Methods </li>
+      <li> Delivery Addresses </li>
+      <li> JioMart Wallet </li>
+    </ul>
+  </div>
+  <div id="list4">
+    <h3>Help & Support</h3>
+    <ul>
+      <li> About Us </li>
+      <li> FAQ </li>
+      <li> Terms & Conditions </li>
+      <li> Privacy Policy </li>
+      <li> E-waste Policy </li>
+      <li> Cancellation & Return Policy </li>
+      <li> Shipping & Delivery Policy </li>
+      <li> AC Installation by resQ </li>
+    </ul>
+  </div>
+  <div id="list5">
+    <h3>Contact Us</h3>
+    <span>WhatsApp us: <a href="">70003 70003</a></span><br>
+    <span>Call us: <a href="">1800 890 1222</a></span><br>
+    <span>8:00 AM to 8:00 PM, 365 days</span>
+    <p>Should you encounter any bugs, glitches, lack <br> of functionality, delayed deliveries, billing <br> errors or other problems on the website, <br> please email us ona <a href="">cs@jiomart.com</a>     </p>
+  </div>
+  <div id="list6">
+      <h2>Download the app</h2>
+      <button><img src="https://www.jiomart.com/assets/ds2web/jds-icons/google-play-icon.svg" alt=""></button>
+      <button><img src="https://www.jiomart.com/assets/ds2web/jds-icons/ios_app_icon.svg" alt=""></button>
+  </div>
+  <hr>
+  <div id="list7">
+    <img src="https://www.jiomart.com/assets/ds2web/jds-icons/jiomart-logo-icon.svg" alt="">&nbsp;&nbsp; © 2023 All rights reserved. Reliance Retail Ltd.
+  </div>
+  <div id="list8">Best viewed on Microsoft Edge 81+, Mozilla Firefox 75+, Safari 5.1.5+, Google Chrome 80+</div>
+</footer>
+
+<!-- footer ends -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <div style="height: 1000px;" id="waste"></div> -->
+
+
+<script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
+<script>
+  document.addEventListener( 'DOMContentLoaded', function() {
+    var splide = new Splide( '.splide' , {
+      width:'98%',
+      start:3,
+      perPage:2,
+      // gap:'0px',
+      type:'loop',
+      autoplay: true,
+      interval: 1000,
+      pagination: false
+    });
+    splide.mount();
+  } );
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./bootstrap-5.3.2-dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="./inde.js"></script>
+
+    </script>
+  </body>
+</html>

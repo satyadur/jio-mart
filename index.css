@@ -1,0 +1,621 @@
+body{
+    font-family: "JioType",helvetica,arial,sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: -0.08px;
+    line-height: 1.5;
+    color: #141414;
+}
+nav{
+    height: 80px;
+    background-color: #0078ad !important;
+    position: fixed !important;
+    top: 0px !important;
+    width: 100%;
+    z-index: 100;
+}
+nav>button{
+    margin-left: 150px;
+    position: relative;
+    bottom: 5px;
+    height: 50px !important;
+    width: 50px;
+    /* border-radius: 60px; */
+
+}
+nav>button:hover{
+    border-radius: 60px;
+    background-color: #1b272d !important;
+}
+#jioimg{
+    position: relative;
+    right: 59px;
+    bottom: 5px;
+    cursor: pointer;
+}
+nav>div{
+    height: 40px;
+    width: 230px;
+    /* border: 2px solid red; */
+    position: relative;
+    bottom: 5px;
+    padding-top: 6px;
+    padding-left: 14px;
+    right: 95px;
+    border-radius: 30px;
+    color: #fff;
+    font-weight: 600;
+}
+nav>div:hover{
+    cursor: pointer;
+    background-color: #39505a;
+}
+
+#inp2{
+    height: 40px !important;
+    width: 412px !important;
+    position: relative;
+    bottom: 5px;
+    left: 400px;
+    display: inline;
+}
+nav>#inp2>input{
+    height: 40px;
+    width: 312px;
+    border-radius: 20px;
+    position: relative;
+    /* left: 100px; */
+    right: 240px;
+    border-radius: 20px;
+    border: none;
+    padding-left: 60px;
+    cursor: text;
+}
+nav>#inp2>img{
+    position: relative;
+    right: 200px;
+    z-index: 1;
+    cursor: pointer;
+}
+#menusymbol{
+    position: relative;
+    right: 280px   !important ;
+    bottom: 3px;
+    cursor: pointer;
+}
+#cartsymbol{
+    position: relative;
+    left: 30px;
+    cursor: pointer;
+    height: 40px;
+    bottom: 5px;
+    width: 40px;
+    border-radius: 30px;
+    /* right: 400px    ;  */
+}
+#cartsymbol>img{
+    margin-left: 7px;
+    margin-top: 7px;
+}
+#cartsymbol:hover{
+    background-color: #1b272d;
+}
+.btn-primary{
+    position: relative;
+    height: 40px;
+    width: 100px;
+    bottom: 107px;
+    background: none;
+    color: #fff;
+    font-weight: 700;
+    right: 170px;
+    bottom: 5px;
+    border: none;
+}
+#hovernav2{
+    height: 40px;
+    width: 100%;
+    position: relative;
+    /* border: 2px solid red; */
+    background-color: #0c5273;
+    position: fixed;
+    top: 80px;
+    z-index: 100;
+}
+#hovernav2>ul{
+    list-style: none;
+    display: inline-flex;
+    gap: 20px;
+    color: #fff;
+    font-weight: 500;
+    margin-top: 4px;
+    margin-left: 140px;
+}
+#hovernav2>ul>li{
+    cursor: pointer;
+}
+#grohover{
+    height: 475px;
+    width: 250px;
+    /* border: 1px solid ; */
+    color: #141414;
+    position: absolute;
+    top: 40px;
+    z-index: 100;
+    display: none;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: #f5f5f5;
+}
+#grohover>ul{
+    list-style: none;
+    position: relative;
+    /* right: 9px; */
+    left: 7px;
+    display: inline;
+    width: 10px;
+    bottom: 20px;
+    line-height: 36px;
+}
+#grohover>ul>li{
+    width: 220px;
+    padding-left: 16px;
+}
+#grohover>ul>li:hover{
+    background-color: #e0ecf1;
+    border-radius: 20px;
+}
+#groceries:hover #grohover{
+    display: block;
+}
+#fasdiv{
+    height: 316px;
+    width: 250px;
+    position: absolute;
+    color: #141414;
+        /* border: 1px solid ; */
+        display: none;
+        /* z-index: 1; */
+        margin-top: 10px;
+            background-color: #f5f5f5;
+            border-bottom-left-radius: 20px;
+            border-bottom-right-radius: 20px;
+
+}
+#fasdiv>ul{
+    list-style: none;
+    position: relative;
+    /* right: 9px; */
+    left: 7px;
+    display: inline;
+    width: 10px;
+    bottom: 20px;
+    left: 3px;
+    line-height: 36px;
+    /* border: 2px solid red; */
+    /* background-color: #f5f5f5; */
+}
+#fasdiv>ul>li{
+    /* border: 2px solid red; */
+    width: 220px;
+    padding-left: 10px;
+
+}
+#fashion:hover #fasdiv{
+    display: block;
+}
+#fasdiv>ul>li:hover{
+    background-color: #e0ecf1;
+    border-radius: 20px;
+}
+#sportdiv{
+    height: 180px;
+    width: 250px;
+    /* border: 2px solid red; */
+    margin-top: 10px;
+    background-color: #f5f5f5;
+    display: none;
+    color: #141414;
+    border-bottom-left-radius: 20px;
+    /* z-index: 1; */
+    border-bottom-right-radius: 20px;
+}
+#sportdiv>ul{
+    list-style: none;
+    line-height: 30px;
+    position: relative;
+    right: 30px;
+  
+  
+}
+#sportdiv>ul>li{
+    /* border: 2px solid red; */
+    width: 210px;
+    padding-left: 10px;
+
+}
+#sports:hover #sportdiv{
+    display: block;
+}
+#sportdiv>ul>li:hover{
+    background-color: #e0ecf1;
+    border-radius: 20px;
+}
+
+#carouselExampleInterval{
+    /* border: 2px solid red; */
+    position: absolute;
+    top: 160px;
+    height: 320px;
+    /* z-index: -1; */
+
+}
+.carousel-control-prev-icon{
+    height: 40px !important;
+    width: 40px !important;
+    color: #141414 !important;
+    font-size: 16px !important;
+    border-radius: 20px;
+    position: relative;
+    bottom: 20px;
+    right: 70px;
+    background-color: rgba(255,255,255,.6588235294);
+    border: 1px solid  #E0E0E0
+}
+.carousel-control-prev-icon:hover{
+        background-color: #0078ad;
+}
+.carousel-control-next-icon{
+    height: 40px !important;
+    width: 40px !important;
+    color: #141414 !important;
+    font-size: 16px !important;
+    border-radius: 20px;
+    position: relative;
+    bottom: 10px;
+    left: 60px;
+    /* right: 70px; */
+    background-color: rgba(255,255,255,.6588235294);
+    border: 1px solid  #E0E0E0
+}
+.carouselExampleInterval>.carousel-inner>.carousel-item>img{
+    height: 390px !important;
+    border: 2px solid red !important;
+}
+#items{
+    height: 319px;
+    /* border: 2px solid red !important; */
+    width: 1458px;
+    margin-left: 35px;
+    margin-top: 460px;
+}
+#items>h1{
+    font-size: 16px;
+    font-weight: 900;
+    display: inline;
+    position: relative;
+    top: 20px;
+    left: 10px;
+}
+.owl-theme{
+    margin-top: 40px;
+    /* z-index: -1; */
+}
+.owl-theme>.item{
+    height: 266px !important;
+    width: 212px !important;
+    overflow: hidden;
+    cursor: pointer !important;
+
+}   
+
+#imagediv{
+    height: 266px !important;
+    width: 212px !important;
+    /* overflow: hidden; */
+    transition-duration: 1s;
+    transform: rotateX(2deg);
+}
+#imagediv>#image{
+    height: 266px !important;
+    width: 212px !important;
+  
+}
+#imagediv:hover{
+    
+    transform: scale(1.2);
+    cursor: pointer;
+}
+#image:hover{
+    cursor: pointer;
+}
+.tems2{
+    position: relative;
+    /* top: 400px; */
+    /* right: 2px; */
+    bottom: 400px;
+    height: 359px !important;
+    /* border: 2px solid red !important; */
+    width: 1458px;
+    margin-left: 35px;
+    /* z-index: -1; */
+    /* border: 2px solid red; */
+}
+#no{
+    font-size: 106px;
+    font-weight: 900;
+    display: inline;
+    position: absolute !important;
+    /* top: 2000px; */
+    color: #141414 !important;
+    /* left: 10px; */
+}
+.tems2>div{
+    position: relative;
+    top: 70px;
+}
+.splide{
+    position: relative;
+    bottom: 300px;
+    display: inline-flex;
+    left: 25px;
+}
+
+.splide>.splide__track>ul>li{
+    height: 124px;
+    width: 735px;
+    border-radius: 20px;
+}
+.splide>.splide__track>ul>li>img{
+    height: 124px;
+    width: 735px;
+    border-radius: 20px;
+}
+#waste{
+    border: 2px solid red;
+    margin-top: 1000px;
+}
+.tems3{
+    position: relative;
+    bottom: 690px;
+}
+#bootstrap-carosel{
+    position: relative;
+    bottom: 650px;
+    width: 97%;
+    margin-left: 24px;
+}
+#iam{
+    height: 320px !important;
+}
+.carousel-control-next-icon:hover{
+    background-color: #0078ad;
+}
+.tems4{
+    position: relative;
+    bottom: 1100px;
+    border: none;
+    height: 400px !important;
+}
+.tems4>div{
+    position: relative;
+    top: 60px;
+}
+#splise2{
+    position: relative;
+
+}
+#last{
+    height: 240px;
+    /* border: 2px solid red; */
+    position: relative;
+    bottom: 1100px;
+}
+#last>div>img{
+    height: 240px;
+}
+#last2{
+    height: 240px;
+        /* border: 2px solid red !important; */
+        position: relative;
+        bottom: 1100px;
+        width: 97%;
+        margin-left: 25px;
+
+}
+#last2>div>img{
+    height: 240px;
+    width: 100% !important;
+}
+footer{
+    height: 520px;
+    background-color: #f5f5f5;
+            /* border: 2px solid red !important; */
+            position: relative;
+            bottom: 1094px;
+}
+#list1{
+    position: relative;
+    top: 40px;
+    margin-left: 180px;
+    
+}
+#list1>h3{
+    font-size: 16px;
+    font-weight: 900;
+}
+#list1>ul{
+    list-style: none;
+    position: relative;
+    right: 40px;
+    line-height: 40px;
+    font-size: 16px;
+    font-weight: 500;
+}
+#list1>ul>li{
+    cursor: pointer;
+    width: 196px;
+    padding-left: 10px;
+}
+#list1>ul>li:hover{
+    background-color: #e0e0e0;
+}
+/* iq */
+#list2{
+    position: relative;
+    /* top: 40px; */
+    bottom: 325px;
+    margin-left: 400px;
+    
+}
+#list2>h3{
+    font-size: 16px;
+    font-weight: 900;
+}
+#list2>ul{
+    list-style: none;
+    position: relative;
+    right: 40px;
+    line-height: 40px;
+    font-size: 16px;
+    font-weight: 500;
+}
+#list2>ul>li{
+    cursor: pointer;
+    width: 196px;
+    padding-left: 10px;
+}
+#list2>ul>li:hover{
+    background-color: #e0e0e0;
+}
+/* nojdn */
+#list3{
+    position: relative;
+    /* top: 40px; */
+    bottom: 688px;
+    margin-left: 630px;
+    
+}
+#list3>h3{
+    font-size: 16px;
+    font-weight: 900;
+}
+#list3>ul{
+    list-style: none;
+    position: relative;
+    right: 40px;
+    line-height: 40px;
+    font-size: 16px;
+    font-weight: 500;
+}
+#list3>ul>li{
+    cursor: pointer;
+    width: 196px;
+    padding-left: 10px;
+}
+#list3>ul>li:hover{
+    background-color: #e0e0e0;
+}
+/* mmk */
+#list4{
+    position: relative;
+    /* top: 40px; */
+    bottom: 970px;
+    margin-left: 850px;
+    
+}
+#list4>h3{
+    font-size: 16px;
+    font-weight: 900;
+}
+#list4>ul{
+    list-style: none;
+    position: relative;
+    right: 40px;
+    line-height: 40px;
+    font-size: 16px;
+    font-weight: 500;
+}
+#list4>ul>li{
+    cursor: pointer;
+    width: 266px;
+    padding-left: 10px;
+}
+#list4>ul>li:hover{
+    background-color: #e0e0e0;
+}
+#list5{
+    position: relative;
+    bottom: 1335px;
+    left: 1090px;
+    width: 300px !important;
+}
+#list5>h3{
+    font-size: 24px;
+    font-weight: 900;
+}
+#list5>span{
+    font-size: 14px;
+    font-weight: 500;
+}
+#list5>span>a{
+    text-decoration: none;
+    color: #0c5273;
+    font-weight: 700;
+}
+#list5>span>a:hover{
+    text-decoration: underline;
+}
+#list5>p{
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 30px;
+}
+#list5>p>a{
+    text-decoration: none;
+    color: #0c5273;
+    font-weight: 700;
+}
+#list5>p>a:hover{
+    text-decoration: underline;
+}
+#list6{
+    position: relative;
+    bottom: 1330px;
+    left: 1090px;
+    width: 400px;
+}
+#list6>h2{
+    font-size: 24px;
+    font-weight: 900;
+    letter-spacing: -0.72px;
+    color: #141414;
+}
+#list6>button{
+    background: none;
+    border: none;
+}
+hr{
+    background-color: #E0E0E0 !important;
+    opacity: 0.2 !important;
+    position: relative;
+    bottom: 1250px;
+}
+#list7{
+    position: relative;
+    bottom: 1250px;
+    left: 170px;
+    display: inline;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: -0.06px;
+}
+#list8{
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: -0.06px;
+    position: relative;
+    bottom: 1246px;
+    left: 600px;
+    display: inline;
+}
